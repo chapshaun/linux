@@ -1,0 +1,19 @@
+Steps to setup GitHub repo:
+-----------------------------------------------------
+git init
+
+git add .
+
+git commit -m "initial commit"
+
+git remote add origin <url>
+
+git remove -v
+
+git pull
+
+git branch --set-upstream master origin/master
+
+git push origin master
+
+-----------------------------------------------------

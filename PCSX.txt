@@ -1,0 +1,4 @@
+wget http://archive.getdeb.net/install_deb/playdeb_0.3-1~getdeb1_all.deb
+sudo dpkg -i playdeb_0.3-1~getdeb1_all.deb
+sudo apt-get update
+sudo apt-get install pcsxr

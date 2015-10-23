@@ -1,0 +1,21 @@
+apm install:
+	emmet
+	atom-jshint
+	terminal-status
+
+emmet cmds:
+  # = id;
+  . = class;
+  > = child selector;
+  + = sibling selector;
+  ^ = grouping; () = grouping
+  [] = attributes;
+  {} = inner content;
+  * = mulitiplier;
+  $ = padding; 
+  @ = start at; - = reverse;
+
+
+p.red.bold#theId$$$@5[title=thetitle]{inner content}*5
+
+

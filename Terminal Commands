@@ -1,0 +1,13 @@
+Train = sl
+
+Movie = telnet towel.blinkenlights.nl
+Fortune = fortune
+
+Reverse = rev
+
+Factor Tree = factor
+
+Cowsay = cowsay
+	
+fortune | cowsay
+xcowsay = xcowsay

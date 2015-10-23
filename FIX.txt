@@ -1,0 +1,10 @@
+Fix:
+'<class 'KeyError'>' (“The cache has no package named wine-staging-i386”)
+
+Update:
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade 
+
+Reinstall the Package:
+sudo apt-get install --reinstall wine-staging-i386

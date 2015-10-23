@@ -1,0 +1,12 @@
+Install:
+sudo curl https://yt-dl.org/downloads/2015.10.18/youtube-dl -o /usr/local/bin/youtube-dl
+
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+Update:
+youtube-dl -U
+
+Fix:
+youtube-dl --verbose <url>
+
+youtube-dl --prefer-ffmpeg <url>
