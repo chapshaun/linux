@@ -3,6 +3,13 @@ apm install:
 	atom-jshint
 	terminal-status
 
+	https://github.com/DanBrooker/file-icons.git
+	https://github.com/thomaslindstrom/color-picker
+
+themes:
+	https://github.com/zenorocha/dracula-theme.git
+	https://github.com/kevinsawicki/monokai
+
 emmet cmds:
   # = id;
   . = class;
