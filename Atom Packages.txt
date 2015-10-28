@@ -1,7 +1,10 @@
+Install at /home/shaunyboi14/.atom/packages/
+
 apm install:
 	emmet
 	atom-jshint
 	terminal-status
+	minimap
 
 	https://github.com/DanBrooker/file-icons.git
 	https://github.com/thomaslindstrom/color-picker
