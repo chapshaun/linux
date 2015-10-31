@@ -6,18 +6,19 @@ if doesn't work go to https://launchpad.net/~webupd8team/+archive/ubuntu/atom/+p
 sudo apt-get update
 sudo apt-get install atom
 
-apm install:
+apm install in /packages dir:
+
 	emmet
 	atom-jshint
 	terminal-status
 	minimap
 
-	https://github.com/DanBrooker/file-icons.git
-	https://github.com/thomaslindstrom/color-picker
+	git clone https://github.com/DanBrooker/file-icons.git
+	git clone https://github.com/thomaslindstrom/color-picker
 
 themes:
-	https://github.com/zenorocha/dracula-theme.git
-	https://github.com/kevinsawicki/monokai
+	git clone https://github.com/zenorocha/dracula-theme.git
+	git clone https://github.com/kevinsawicki/monokai
 
 emmet cmds:
   # = id;
