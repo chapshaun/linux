@@ -1,5 +1,10 @@
 Install at /home/shaunyboi14/.atom/packages/
 
+Install atom:
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
+
 apm install:
 	emmet
 	atom-jshint
@@ -22,10 +27,8 @@ emmet cmds:
   [] = attributes;
   {} = inner content;
   * = mulitiplier;
-  $ = padding; 
+  $ = padding;
   @ = start at; - = reverse;
 
 
 p.red.bold#theId$$$@5[title=thetitle]{inner content}*5
-
-
