@@ -8,10 +8,7 @@ sudo apt-get install atom
 
 apm install in /packages dir:
 
-	emmet
-	atom-jshint
-	terminal-status
-	minimap
+	apm install emmet atom-jshint terminal-status minimap
 
 	git clone https://github.com/DanBrooker/file-icons.git
 	git clone https://github.com/thomaslindstrom/color-picker
