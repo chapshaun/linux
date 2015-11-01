@@ -17,3 +17,13 @@ git branch --set-upstream master origin/master
 git push origin master
 
 -----------------------------------------------------
+Install:
+
+sudo apt-get install git
+
+git config --global user.email "email.com"
+git config --global user.name "username"
+
+git config --global push.default simple
+
+-----------------------------------------------------
