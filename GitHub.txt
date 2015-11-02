@@ -27,3 +27,11 @@ git config --global user.name "username"
 git config --global push.default simple
 
 -----------------------------------------------------
+
+Cache Username and Password:
+
+git config --global credential.helper cache (15mins)
+
+git config --global credential.helper 'cache --timeout=3600'
+
+-----------------------------------------------------
