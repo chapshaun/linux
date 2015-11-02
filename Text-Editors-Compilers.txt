@@ -3,5 +3,6 @@ sudo apt-get install vim
 sudo apt-get install gedit
 sudo apt-get install leafpad
 sudo apt-get install g++
+sudo apt-get install python
 
 CodeBlocks
