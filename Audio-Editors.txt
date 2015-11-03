@@ -1,2 +1,8 @@
+Audacity:
 sudo apt-get update
 sudo apt-get install audacity audacity-dbg
+
+Ardour:
+
+LMMS:
+

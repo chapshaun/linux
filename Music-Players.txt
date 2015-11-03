@@ -1,0 +1,18 @@
+Audacious:
+sudo apt-get update
+sudo apt-get install audacious
+
+Rhythmbox:
+sudo add-apt-repository ppa:fossfreedom/rhythmbox
+sudo apt-get update
+sudo apt-get install rhythmbox
+
+GMusicBrowser:
+sudo add-apt-repository ppa:andreas-boettger/gmusicbrowser-daily
+sudo apt-get update
+sudo apt-get install gmusicbrowser
+
+Clementine:
+sudo apt-add-repository ppa:me-davidsansome/clementine
+sudo apt-get update
+sudo apt-get install clementine
