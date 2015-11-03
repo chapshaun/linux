@@ -8,3 +8,14 @@ sudo apt-get dist-upgrade
 
 Reinstall the Package:
 sudo apt-get install --reinstall wine-staging-i386
+
+Fix:
+'Error: BrokenCount>0'
+
+gksu software-properties-gtk
+
+check all of them
+
+sudo apt-get update 
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
