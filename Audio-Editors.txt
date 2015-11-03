@@ -3,6 +3,12 @@ sudo apt-get update
 sudo apt-get install audacity audacity-dbg
 
 Ardour:
+sudo add-apt-repository ppa:dobey/audiotools
+sudo apt-get update
+sudo apt-get install ardour
 
 LMMS:
+sudo apt-add-repository ppa:dobey/audiotools
+sudo apt-get update
+sudo apt-get install lmms
 
