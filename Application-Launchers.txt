@@ -1,0 +1,13 @@
+---------- Kupfer ----------
+sudo add-apt-repository ppa:kupfer-team/ppa
+sudo apt-get update
+sudo apt-get install kupfer
+
+---------- Albert ----------
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install albert
+
+1) Open it up
+2) Ctrl + Shift = q
+
