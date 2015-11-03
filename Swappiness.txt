@@ -2,7 +2,7 @@ To view your swappiness:
 cat /proc/sys/vm/swappiness
 
 Open:
-gedit /etc/sysctl.conf
+sudo gedit /etc/sysctl.conf
 
 Add to end of file:
 # Decrease swappiness value
