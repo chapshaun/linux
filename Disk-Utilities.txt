@@ -12,4 +12,4 @@ sudo apt-get install gnome-system-monitor
 
 Aptitude:
 sudo apt-get update
-sudo apt-get aptitude
+sudo apt-get install aptitude
