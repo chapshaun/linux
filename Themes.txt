@@ -3,6 +3,10 @@ sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
 sudo apt-get update
 sudo apt-get install elementary-tweaks
 
+Gnome Tweak Tool:
+sudo apt-get update
+sudo apt-get install gnome-tweak-tool
+
 ------------------THEMES------------------
 
 sudo add-apt-repository ppa:numix/ppa
