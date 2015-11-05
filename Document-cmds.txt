@@ -1,0 +1,17 @@
+Document converter
+
+sudo apt-get update
+sudo apt-get install unoconv
+
+unoconv -f pdf <file>
+
+Rar and zip files:
+sudo apt-get update
+sudo apt-get install rar
+
+rar / unrar
+
+zip / unzip
+
+Extract tar.gz file:
+tar -x tar_file.tar.gz
