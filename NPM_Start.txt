@@ -2,4 +2,5 @@ npm install express
 npm install express-handlebars
 npm install request
 npm install body-parser
+npm install express-session
 npm init
