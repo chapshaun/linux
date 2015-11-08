@@ -1,2 +1,6 @@
 View filesystem space:
 df -h
+
+CD/DVD Rom:
+Open: eject
+Clost: eject -t

@@ -5,4 +5,11 @@ sudo apt-get install leafpad
 sudo apt-get install g++
 sudo apt-get install python
 
-CodeBlocks
+Sublime:
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+CodeBlocks:
+sudo apt-get update
+(Synaptic)

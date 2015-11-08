@@ -1,3 +1,4 @@
+VLC Media Player:
 sudo apt-get update
 sudo apt-get install vlc
 sudo apt-get install browser-plugin-vlc
@@ -6,3 +7,8 @@ SMplayer:
 sudo add-apt-repository ppa:rvm/smplayer 
 sudo apt-get update
 sudo apt-get install smplayer smplayer-themes smplayer-skins 
+
+Mplayer:
+sudo apt-get install mplayer
+sudo apt-get install mplayer-gui
+
