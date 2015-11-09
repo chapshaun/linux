@@ -21,6 +21,18 @@ sudo add-apt-repository ppa:noobslab/themes
 sudo apt-get update
 sudo apt-get install dorian-theme-3.12
 
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install delorean-dark
+
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install ambiance-dark-blue
+
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install ambiance-blackout-colors
+
 
 ------------------ICONS------------------
 
