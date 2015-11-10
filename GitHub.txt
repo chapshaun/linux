@@ -21,6 +21,8 @@ Install:
 
 sudo apt-get install git
 
+git init (for your working directory)
+
 git config --global user.email "email.com"
 git config --global user.name "username"
 

@@ -4,3 +4,6 @@ df -h
 CD/DVD Rom:
 Open: eject
 Clost: eject -t
+
+Show your distro:
+cat /etc/issue
