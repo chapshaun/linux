@@ -12,3 +12,5 @@ Mplayer:
 sudo apt-get install mplayer
 sudo apt-get install mplayer-gui
 
+Xubuntu Extras / Video Codecs:
+sudo apt-get install xubuntu-restricted-extras libavcodec-extra

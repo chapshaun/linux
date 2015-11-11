@@ -2,7 +2,8 @@ Install Flash on Chromium
 
 sudo apt-get install chromium-browser
 
-sudo add-apt-repository ppa:skunk/pepper-flash (Broken)
+sudo add-apt-repository ppa:skunk/pepper-flash (Sometimes Broken)
+sudo apt-get install pepperflashplugin-nonfree (Alternative)
 
 
 sudo apt-get update
@@ -21,3 +22,10 @@ Add
 
 
 at the end of file, save, and restart
+
+
+Firefox:
+sudo apt-get install flashplugin-installer
+
+Java Apps:
+sudo apt-get install icedtea-plugin
