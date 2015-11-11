@@ -2,7 +2,9 @@ Install at /home/shaunyboi14/.atom/packages/
 
 Install atom:
 sudo add-apt-repository ppa:webupd8team/atom
+
 (Alternative) https://launchpad.net/~webupd8team/+archive/ubuntu/atom/+packages
+
 sudo apt-get update
 sudo apt-get install atom
 
