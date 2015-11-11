@@ -1,5 +1,5 @@
 ---------- Kupfer ----------
-sudo add-apt-repository ppa:kupfer-team/ppa
+sudo add-apt-repository ppa:kupfer-team/ppa (xfce broken)
 sudo apt-get update
 sudo apt-get install kupfer
 

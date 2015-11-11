@@ -1,11 +1,14 @@
 sudo apt-get update
 sudo apt-get install nautilus-dropbox
+
 32-bit:
 
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
+
 64-bit:
 
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+
 Next, run the Dropbox daemon from the newly created .dropbox-dist folder.
 
 ~/.dropbox-dist/dropboxd
