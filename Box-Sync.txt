@@ -1,0 +1,10 @@
+Box-Sync: (tried but didn't work for me)
+Requirements:
+
+	Python 2.7:
+	sudo apt-get install python
+
+	Davfs2:
+	sudo apt-get install davfs2
+
+git clone git://github.com/noiselabs/box-linux-sync.git
