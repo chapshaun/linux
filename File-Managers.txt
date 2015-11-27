@@ -1,0 +1,10 @@
+-------------File Managers-------------
+
+sudo apt-get install thunar
+sudo apt-get install xfe
+
+---------------------------------------
+
+Gksudo (run gui apps):
+sudo apt-get install gksu
+gksudo thunar

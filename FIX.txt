@@ -23,3 +23,6 @@ sudo apt-get dist-upgrade
 Xfce Panel fix:
 Restart it by:
 xfce4-panel -r
+
+Source List Fix:
+sudo gedit /etc/apt/source.list

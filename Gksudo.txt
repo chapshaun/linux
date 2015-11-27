@@ -1,3 +1,0 @@
-Gksudo (run gui apps):
-sudo apt-get install gksu
-gksudo thunar
