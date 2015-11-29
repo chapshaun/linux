@@ -5,3 +5,12 @@ sudo apt-get install clamav clamtk
 CPU & HDD temp monitor:
 sudo apt-get update
 sudo apt-get install psensor
+
+Computer Hardware Info:
+sudo apt-get update
+sudo apt-get install hardinfo
+
+Unetbootin:
+sudo add-apt-repository ppa:gezakovacs/ppa
+sudo apt-get update
+sudo apt-get install unetbootin
