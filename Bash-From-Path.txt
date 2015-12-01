@@ -1,3 +1,7 @@
+----------Yakuake----------
+sudo apt-get update
+sudo apt-get install yakuake
+
 In home directory:
 (edit/create: .bashrc)
 	add: 

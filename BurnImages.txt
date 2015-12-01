@@ -1,0 +1,5 @@
+List Drives:
+ls -l /dev/sd*
+
+Flash the image:
+sudo dd if=<imagefile>.img of=/dev/sdX
