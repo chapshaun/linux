@@ -1,0 +1,11 @@
+-----------Yakuake-----------
+sudo apt-get update
+sudo apt-get install yakuake
+-----------------------------
+
+--------------Terminator---------------
+sudo apt-get update
+sudo apt-get install terminator
+---------------------------------------
+
+-------------xfce-4 Terminal----------------
