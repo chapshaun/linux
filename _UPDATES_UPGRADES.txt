@@ -4,4 +4,5 @@ sudo apt-get upgrade
 sudo apt-get dist-upgrade
 
 --------------Arch--------------
-sudo pacman -Su
+sudo pacman -Syy (sync repos)
+sudo pacman -Su (update/upgrades)
