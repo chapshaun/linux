@@ -6,3 +6,4 @@ sudo apt-get dist-upgrade
 --------------Arch--------------
 sudo pacman -Syy (sync repos)
 sudo pacman -Su (update/upgrades)
+sudo yaourt -Syua
