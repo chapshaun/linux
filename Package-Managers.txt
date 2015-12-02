@@ -6,3 +6,7 @@ sudo apt-get install gdebi-core
 Synaptic Package Manager:
 sudo apt-get update
 sudo apt-get install synaptic
+
+Pacman:
+
+Yaourt:
