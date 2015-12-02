@@ -10,3 +10,14 @@ sudo apt-get install mongodb
  /usr/local/bin/nodemon and change "node" for "nodejs"
 
 npm install
+
+------------------------------
+Arch
+Pacman:
+	nodejs
+	npm
+	mongodb
+
+sudo npm install -g nodemon
+
+------------------------------
