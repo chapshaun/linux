@@ -17,6 +17,9 @@ sudo apt-add-repository ppa:me-davidsansome/clementine
 sudo apt-get update
 sudo apt-get install clementine
 
+Guayadeque:
+
+
 PuddleTag:
 sudo apt-get install python-qt4 python-pyparsing python-mutagen python-configobj
 sudo gdebi -i puddletag_1.0.5-1_all.deb
