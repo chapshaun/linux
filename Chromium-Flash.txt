@@ -24,3 +24,10 @@ sudo apt-get install flashplugin-installer
 
 Java Apps:
 sudo apt-get install icedtea-plugin
+
+
+
+------------------------------------
+Arch:
+	Yaourt:
+		chromium-pepper-flash (don't run as root)
