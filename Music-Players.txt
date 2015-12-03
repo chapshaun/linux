@@ -1,3 +1,6 @@
+MPS:
+git clone https://github.com/np1/mps.git
+
 Audacious:
 sudo apt-get update
 sudo apt-get install audacious

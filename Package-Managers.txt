@@ -10,3 +10,6 @@ sudo apt-get install synaptic
 Pacman:
 
 Yaourt:
+
+Convert .deb to tar:
+git clone https://github.com/helixarch/debtap.git
