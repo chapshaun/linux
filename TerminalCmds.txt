@@ -7,3 +7,10 @@ Clost: eject -t
 
 Show your distro:
 cat /etc/issue
+
+Christmas Tree:
+Install:
+perl -MCPAN -e 'install Acme::POE::Tree'
+
+Run:
+perl -MAcme::POE::Tree -e 'Acme::POE::Tree->new()->run()'
