@@ -26,3 +26,13 @@ xfce4-panel -r
 
 Source List Fix:
 sudo gedit /etc/apt/source.list
+
+
+
+BLANK SCREEN WITH BLINKING CURSOR
+
+Installed new graphics card and it did this.
+
+Alt + F2 
+sudo pacman -Syyu
+sudo mhwd -a pci nonfree 0300 (it should download the driver for it.)
