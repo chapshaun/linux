@@ -1,0 +1,11 @@
+Write iso to USB drive
+
+fdisk -l
+
+umount /dev/sdb
+
+//bs=4M is optional, makes it run faster
+
+dd bs=4M if=[insert iso] of=/dev/sdb
+
+...wait until cmd is finished
