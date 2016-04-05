@@ -1,0 +1,6 @@
+Install:
+sudo apt-get update
+sudo apt-get install imagemagick
+
+Run:
+convert -density 150 input.pdf -quality 100 output.png
