@@ -4,3 +4,8 @@ sudo apt-get install imagemagick
 
 Run:
 convert -density 150 input.pdf -quality 100 output.png
+
+Notes:
+PNG, JPG or (virtually) any other image format can be chosen
+-density xxx will set the dpi to xxx (common are 150 and 300)
+-quality xxx will set the compression to xxx for PNG, JPG and MIFF file formates (100 means no compression)
