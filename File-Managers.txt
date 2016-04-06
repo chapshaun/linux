@@ -8,3 +8,16 @@ sudo apt-get install xfe
 Gksudo (run gui apps):
 sudo apt-get install gksu
 gksudo thunar
+
+--------------------------------------
+
+Set Default:
+
+See what's currently set:
+gvfs-mime --query inode/directory
+
+Set it to Thunar:
+gvfs-mime --set inode/directory Thunar.desktop
+
+Test:
+gvfs-open $HOME
