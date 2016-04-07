@@ -18,3 +18,10 @@ git clone https://github.com/daaain/Handlebars.git
 CodeBlocks:
 sudo apt-get update
 (Synaptic)
+
+Bluefish:
+sudo add-apt-repository ppa:klaus-vormweg/bluefish
+
+sudo apt-get update
+
+sudo apt-get install bluefish
