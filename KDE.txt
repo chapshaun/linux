@@ -1,0 +1,8 @@
+Install:
+sudo add-apt-repository ppa:kubuntu-ci/stable
+sudo apt-get update
+sudo apt-get install plasma-desktop
+
+Remove:
+sudo apt-get install ppa-purge
+sudo ppa-purge ppa:kubuntu-ci/stable
