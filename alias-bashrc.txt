@@ -1,0 +1,19 @@
+#Add these to your .bashrc file
+
+#Custom Alias' by chapshaun
+#Directories
+alias aliasfile="kate /home/shaunchap/.bashrc"
+alias home="cd /home/shaunchap/"
+alias downloads="cd /home/shaunchap/Downloads/"
+alias desktop="cd /home/shaunchap/Desktop/"
+alias programs="cd /home/shaunchap/Programs/"
+alias pictures="cd /home/shaunchap/Pictures/"
+alias music="cd /home/shaunchap/Music/"
+alias documents="cd /home/shaunchap/Documents/"
+alias github="cd /home/shaunchap/GitHub/"
+alias videos="cd /home/shaunchap/Videos/"
+alias notes="cd /home/shaunchap/GitHub/Linux-Packages/"
+alias amvs="cd /home/shaunchap/Videos/AMVs/"
+
+#MISC
+alias shaunyboi14="sudo apt-get update && sudo apt-get upgrade"
