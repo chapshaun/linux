@@ -16,6 +16,7 @@ alias notes="cd /home/shaunchap/GitHub/Linux-Packages/"
 alias amvs="cd /home/shaunchap/Videos/AMVs/"
 alias workspace="cd /home/shaunchap/Workspace/"
 alias newsubl="rm /home/shaunchap/.config/sublime-text-3/Local/Session.sublime_session"
+alias poketeams="cd /home/shaunchap/Dropbox/Pokemon/Teams/"
 
 #MISC
 alias khmao="sudo apt-get update && sudo apt-get upgrade"
