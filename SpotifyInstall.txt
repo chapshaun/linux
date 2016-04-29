@@ -7,3 +7,25 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D2C19886 &&
 
 sudo apt-get update -qq &&
 sudo apt-get install spotify-client
+
+Spotify Shortcuts:
+
+Spotify Play
+Remote app: org.mpris.MediaPlayer2.spotify
+Remote object: /org/mpris/MediaPlayer2
+Function: org.mpris.MediaPlayer2.Player.PlayPause
+
+Spotify Stop
+Remote app: org.mpris.MediaPlayer2.spotify
+Remote object: /org/mpris/MediaPlayer2
+Function: org.mpris.MediaPlayer2.Player.Stop
+
+Spotify Next
+Remote app: org.mpris.MediaPlayer2.spotify
+Remote object: /org/mpris/MediaPlayer2
+Function: org.mpris.MediaPlayer2.Player.Next
+
+Spotify Prev
+Remote app: org.mpris.MediaPlayer2.spotify
+Remote object: /org/mpris/MediaPlayer2
+Function: org.mpris.MediaPlayer2.Player.Previous
