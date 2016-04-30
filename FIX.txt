@@ -36,3 +36,7 @@ Installed new graphics card and it did this.
 Alt + F2 
 sudo pacman -Syyu
 sudo mhwd -a pci nonfree 0300 (it should download the driver for it.)
+
+
+Manjaro Dolphin file error:
+"dbus-launch dolphin"
