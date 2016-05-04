@@ -2,7 +2,7 @@
 
 #Custom Alias' by chapshaun
 #Directories
-alias aliasfile="kate /home/shaunchap/.bashrc"
+alias aliasfile="gedit /home/shaunchap/.bashrc"
 alias home="cd /home/shaunchap/"
 alias downloads="cd /home/shaunchap/Downloads/"
 alias desktop="cd /home/shaunchap/Desktop/"
@@ -24,4 +24,6 @@ alias la="ls -a"
 alias khmao="sudo apt-get update && sudo apt-get upgrade"
 alias soundnode="nohup /home/shaunchap/Programs/Soundnode/Soundnode > /dev/null"
 alias newsubl="rm /home/shaunchap/.config/sublime-text-3/Local/Session.sublime_session"
+alias amv-shuffle="mpv /home/shaunchap/Videos/AMVs --shuffle"
+alias wififix="sudo service network-manager restart"
 #alias subl="/home/shaunchap/Programs/sublime_text_3/sublime_text"

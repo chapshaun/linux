@@ -23,3 +23,8 @@ CPU-G:
 sudo apt-get update
 Run this to run the python:
 sudo apt-get install python python-gobject python-glade2 util-linux 
+
+
+dconf
+compiz
+gnome-do
