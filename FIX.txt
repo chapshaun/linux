@@ -40,3 +40,38 @@ sudo mhwd -a pci nonfree 0300 (it should download the driver for it.)
 
 Manjaro Dolphin file error:
 "dbus-launch dolphin"
+
+
+
+
+LUBUNTU AUDIO FIX:
+
+
+
+So for users having difficulties with their audio settings in Lubuntu, i suggest installing pulseaudio and pavucontrol:
+
+Code:
+sudo apt-get install pulseaudio pavucontrol
+
+
+Restart. In order to get your multimedia keys working, edit your openbox rc.xml:
+
+Code:
+nano .config/openbox/lubuntu-rc.xml
+
+and edit the 'Keybinding for Volume management' section to the following:
+
+Code:
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <command>amixer -q -D pulse sset Master 3%+ unmute</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <command>amixer -q -D pulse sset Master 3%- unmute</command>
+      </action>
+    </keybind>
+
+Hope this helps.
+nick
