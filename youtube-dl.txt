@@ -5,7 +5,7 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 
 Update:
-youtube-dl -U
+sudo youtube-dl -U
 
 Fix:
 youtube-dl --verbose <url>
