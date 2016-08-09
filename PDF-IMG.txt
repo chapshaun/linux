@@ -9,3 +9,10 @@ Notes:
 PNG, JPG or (virtually) any other image format can be chosen
 -density xxx will set the dpi to xxx (common are 150 and 300)
 -quality xxx will set the compression to xxx for PNG, JPG and MIFF file formates (100 means no compression)
+
+
+pdfshuffler
+
+pdftk
+
+	pdftk 01.pdf 02.pdf cat output output.pdf
