@@ -1,3 +1,14 @@
+UBUNTU WIFI FIX:
+(first try:)
+sudo ifconfig wlp4s0 up
+service network-manager restart
+
+(manual cmd)
+*turn off wifi switch* or airplane mode
+sudo service network-manager restart
+
+
+
 Fix:
 '<class 'KeyError'>' (“The cache has no package named wine-staging-i386”)
 
