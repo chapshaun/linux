@@ -1,7 +1,7 @@
 UBUNTU WIFI FIX:
 (first try:)
-sudo ifconfig wlp4s0 up
-service network-manager restart
+sudo ifconfig wlp2s0 up
+sudo service network-manager restart
 
 (manual cmd)
 *turn off wifi switch* or airplane mode
