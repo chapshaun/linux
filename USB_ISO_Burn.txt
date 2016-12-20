@@ -1,11 +1,15 @@
 Write iso to USB drive
 
-fdisk -l
+sudo fdisk -l
 
 umount /dev/sdb
+------------------------------------------------
+lsblk
+
+sudo mkfs.vfat -n 'SanDisk' -I /dev/sdb
 
 //bs=4M is optional, makes it run faster
-
-dd bs=4M if=[insert iso] of=/dev/sdb
+------------------------------------------------
+sudo dd bs=4M if=[insert iso] of=/dev/sdb
 
 ...wait until cmd is finished
