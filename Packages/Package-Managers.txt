@@ -1,0 +1,4 @@
+synaptic
+gdebi
+pacman
+yaourt

@@ -1,0 +1,3 @@
+clamav
+hardinfo
+bleachbit

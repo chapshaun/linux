@@ -1,0 +1,7 @@
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+
+sudo apt-get update
+
+simplescreenrecorder
+
+ffmpeg

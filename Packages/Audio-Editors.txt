@@ -1,0 +1,4 @@
+audacity
+ardour
+kid3
+

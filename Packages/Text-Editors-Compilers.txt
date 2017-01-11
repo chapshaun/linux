@@ -1,0 +1,7 @@
+nano
+vim
+mousepad
+sublime
+codeblocks
+eclipse
+bluefish

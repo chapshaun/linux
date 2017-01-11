@@ -1,0 +1,7 @@
+elementary-tweaks
+gnome-tweak-tool
+
+------------------ICONS------------------
+
+numix
+sardi

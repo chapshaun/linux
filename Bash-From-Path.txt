@@ -1,4 +1,0 @@
-In home directory:
-(edit/create: .bashrc)
-	add: 
-		alias subl="/home/shaunchap/Programs/sublime_text_3/sublime_text" 

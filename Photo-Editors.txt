@@ -1,5 +1,0 @@
-Gwenview:
-sudo add-apt-repository ppa:kubuntu-ppa/backports
-sudo apt-get update
-sudo apt-get install gwenview
-sudo apt-get install gwenview-dbg

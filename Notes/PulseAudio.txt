@@ -1,6 +1,4 @@
-Pulse Audio Volume Control:
-sudo apt-get update
-sudo apt-get install pavucontrol
+pavucontrol
 
 Stream Output from Input:
 sudo apt-get update

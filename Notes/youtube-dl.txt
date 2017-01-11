@@ -7,7 +7,8 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 Update:
 sudo youtube-dl -U
 
-Fix:
-youtube-dl --verbose <url>
+youtube-dl -F <link>
 
-youtube-dl --prefer-ffmpeg <url>
+then
+
+youtube-dl -f <code> <link>
