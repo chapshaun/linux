@@ -1,4 +1,4 @@
-# Linux-Packages
+# linux repo
 Here are some various
 - dotfiles
 - packages 
