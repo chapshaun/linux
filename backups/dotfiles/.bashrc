@@ -117,9 +117,8 @@ if ! shopt -oq posix; then
 fi
 
 
-#Custome Alias
-alias restart-pulse="pulseaudio -k && pulseaudio -D"
-alias khmao="sudo apt-get update && sudo apt-get upgrade"
+#Custom Alias'
+#Directories
 alias home="cd ~/"
 alias downloads="cd ~/Downloads/"
 alias desktop="cd ~/Desktop/"
@@ -131,25 +130,23 @@ alias GitHub="cd ~/GitHub/"
 alias videos="cd ~/Videos/"
 alias workspace="cd ~/Workspace/"
 alias amvs="cd ~/Videos/AMVs/"
-alias amvshuffle="mpv ~/Videos/AMVs/ --shuffle"
-alias subl="~/Programs/sublime_text_3/sublime_text"
-alias newsubl="rm ~/.config/sublime-text-3/Local/Session.sublime_session"
 alias shell-scripts="cd ~/shell-scripts"
-alias tmux-sessions="~/shell-scripts/tmux-session.sh"
-alias tearing-test="mpv ~/.config/tear_test.mp4"
-alias man-pi="sudo gedit ~/shell-scripts/pi.txt"
 
-#xubuntu wallpapers
+#Xubuntu directories
 alias wallpapers-xubuntu="cd /usr/share/xfce4/backdrops/"
 alias icons-xubuntu="cd /usr/share/icons/"
 alias themes-xubuntu="cd /usr/share/icons/"
 
 #MISC
+alias g++="g++ -std=c++11"
+alias subl="~/Programs/sublime_text_3/sublime_text"
+alias newsubl="rm ~/.config/sublime-text-3/Local/Session.sublime_session"
+alias amvshuffle="mpv ~/Videos/AMVs/ --shuffle"
+alias man-pi="sudo gedit ~/shell-scripts/pi.txt"
+alias tmux-sessions="~/shell-scripts/tmux-session.sh"
+alias wififix="~/shell-scripts/wififix.sh"
+
 alias play="xdotool key --clearmodifiers XF86AudioPlay"
 alias next="xdotool key --clearmodifiers XF86AudioNext"
 alias prev="xdotool key --clearmodifiers XF86AudioPrev"
-alias set-alias="sudo gedit ~/.bashrc"
-alias wififix="sudo service network-manager restart"
-alias g++="g++ -std=c++11"
-
 
