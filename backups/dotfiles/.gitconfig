@@ -1,0 +1,7 @@
+[user]
+	email = shaun.chun.chap@gmail.com
+	name = chapshaun
+[push]
+	default = simple
+[credential]
+	helper = cache
