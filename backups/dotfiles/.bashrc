@@ -131,7 +131,7 @@ alias videos="cd ~/Videos/"
 alias workspace="cd ~/Workspace/"
 alias amvs="cd ~/Videos/AMVs/"
 alias shell-scripts="cd ~/shell-scripts/"
-alias Linux-Packages="cd ~/GitHub/Linux-Packages/"
+alias linux="cd ~/GitHub/linux/"
 
 #Xubuntu directories
 alias wallpapers-xubuntu="cd /usr/share/xfce4/backdrops/"
