@@ -1,4 +1,6 @@
 # Linux-Packages
-Here are some various programs that I use in all of my Linux machines.
-- apt-get is only with Debian based distros.
-- pacman is used for Arch linux
+Here are some various
+- dotfiles
+- packages 
+- notes
+I use for all my debian and arch based distros.
