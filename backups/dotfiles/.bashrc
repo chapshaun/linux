@@ -130,14 +130,15 @@ alias GitHub="cd ~/GitHub/"
 alias videos="cd ~/Videos/"
 alias workspace="cd ~/Workspace/"
 alias amvs="cd ~/Videos/AMVs/"
-alias shell-scripts="cd ~/shell-scripts"
+alias shell-scripts="cd ~/shell-scripts/"
+alias Linux-Packages="cd ~/GitHub/Linux-Packages/"
 
 #Xubuntu directories
 alias wallpapers-xubuntu="cd /usr/share/xfce4/backdrops/"
 alias icons-xubuntu="cd /usr/share/icons/"
 alias themes-xubuntu="cd /usr/share/icons/"
 
-#MISC
+#Misc
 alias g++="g++ -std=c++11"
 alias subl="~/Programs/sublime_text_3/sublime_text"
 alias newsubl="rm ~/.config/sublime-text-3/Local/Session.sublime_session"
