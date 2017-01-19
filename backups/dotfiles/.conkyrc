@@ -50,5 +50,5 @@ $membar
 ${font sans-serif:bold:size=8}${color eee}DISKs ${hr 2}
 ${font sans-serif:normal:size=8}Root $alignc ${fs_used /} / ${fs_size /} $alignr${fs_used_perc /}%
 ${fs_bar /}
-Home $alignc ${fs_used /home/chappykhmao} / ${fs_size /home/chappykhmao} $alignr ${fs_used_perc /home/chappykhmao}%
-${fs_bar /home/YOUR-chappykhmao}
+Home $alignc ${fs_used /home/shaunchap} / ${fs_size /home/shaunchap} $alignr ${fs_used_perc /home/shaunchap}%
+${fs_bar /home/shaunchap}
