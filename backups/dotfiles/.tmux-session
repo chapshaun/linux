@@ -1,5 +1,6 @@
-weo	weo	/home/shaunchap
+weo	main	/home/shaunchap
+weo	ranger	/home/shaunchap
 weo	htop	/home/shaunchap
 weo	ssh	/home/shaunchap/shell-scripts
-weo	hw	/home/shaunchap/Workspace/cs3430/assignment1
-weo	notes	/home/shaunchap/Workspace/cs3430
+weo	hw	/home/shaunchap/Workspace
+weo	notes	/home/shaunchap/Workspace
