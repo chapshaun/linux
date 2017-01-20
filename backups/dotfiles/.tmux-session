@@ -1,6 +1,4 @@
-weo	main	/home/shaunchap
+weo	master	/home/shaunchap/shell-scripts
 weo	ranger	/home/shaunchap
 weo	htop	/home/shaunchap
-weo	ssh	/home/shaunchap/shell-scripts
-weo	hw	/home/shaunchap/Workspace
-weo	notes	/home/shaunchap/Workspace
+weo	trackma	/home/shaunchap/shell-scripts
