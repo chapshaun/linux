@@ -136,7 +136,7 @@ alias linux="cd ~/GitHub/linux/"
 #Xubuntu directories
 alias wallpapers-xubuntu="cd /usr/share/xfce4/backdrops/"
 alias icons-xubuntu="cd /usr/share/icons/"
-alias themes-xubuntu="cd /usr/share/icons/"
+alias themes-xubuntu="cd /usr/share/themes/"
 
 #Misc
 alias g++="g++ -std=c++11"
