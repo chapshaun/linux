@@ -52,6 +52,8 @@
       o:s+`.`.                                                                                          
     ::+++/o///.                                                                 
 
+![alt text](http://i.imgur.com/7DvBYZN.png)
+
 Here are some various
 - dotfiles
 - packages 
