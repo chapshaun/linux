@@ -130,7 +130,7 @@ alias GitHub="cd ~/GitHub/"
 alias videos="cd ~/Videos/"
 alias workspace="cd ~/Workspace/"
 alias amvs="cd ~/Videos/AMVs/"
-alias shell-scripts="cd ~/shell-scripts/"
+alias scripts="cd ~/scripts/"
 alias linux="cd ~/GitHub/linux/"
 
 #Xubuntu directories

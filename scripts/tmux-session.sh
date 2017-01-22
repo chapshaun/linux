@@ -1,4 +1,14 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#        __                     __                    
+#  _____/ /_  ____ _____  _____/ /_  ____ ___  ______ 
+# / ___/ __ \/ __ `/ __ \/ ___/ __ \/ __ `/ / / / __ \
+#/ /__/ / / / /_/ / /_/ (__  ) / / / /_/ / /_/ / / / /
+#\___/_/ /_/\__,_/ .___/____/_/ /_/\__,_/\__,_/_/ /_/ 
+#               /_/                                   
+#   https://github.com/chapshaun
+#   https://twitter.com/harimakito
+
+# DESC: backs up all my scripts to github
 # Save and restore the state of tmux sessions and windows.
 # TODO: persist and restore the state & position of panes.
 set -e
