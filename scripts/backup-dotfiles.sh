@@ -15,7 +15,6 @@ cp -r ~/.conkysetups ~/GitHub/linux/backups/dotfiles/
 cp -r ~/.icons ~/GitHub/linux/backups/dotfiles/
 # Config DIR
 cp -r ~/.config/ranger/ ~/GitHub/linux/backups/dotfiles/
-cp -r ~/.config/cmus/ ~/GitHub/linux/backups/dotfiles/
 cp -r ~/.config/htop/ ~/GitHub/linux/backups/dotfiles/
 cp -r ~/.config/plank/ ~/GitHub/linux/backups/dotfiles/
 cp -r ~/.config/viewnior/ ~/GitHub/linux/backups/dotfiles/
