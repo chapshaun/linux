@@ -7,19 +7,17 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: youtube-dl notes
+# DESC: document converter, needs unoconv
 
-Install: Look here for latest updates: https://github.com/rg3/youtube-dl
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+unoconv -f pdf <file>
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
+Rar and zip files:
+sudo apt-get update
+sudo apt-get install rar
 
-Update:
-sudo youtube-dl -U
+rar / unrar
 
-youtube-dl -F <link>
+zip / unzip
 
-then
-
-youtube-dl -f <code> <link>
+Extract tar.gz file:
+tar -x tar_file.tar.gz

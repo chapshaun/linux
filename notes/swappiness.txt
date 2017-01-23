@@ -7,19 +7,15 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: youtube-dl notes
+# DESC:changing swappiness (recommended)
+To view your swappiness:
+cat /proc/sys/vm/swappiness
 
-Install: Look here for latest updates: https://github.com/rg3/youtube-dl
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+Open:
+sudo gedit /etc/sysctl.conf
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
+Add to end of file:
+# Decrease swappiness value
+vm.swappiness=10
 
-Update:
-sudo youtube-dl -U
-
-youtube-dl -F <link>
-
-then
-
-youtube-dl -f <code> <link>
+Restart.

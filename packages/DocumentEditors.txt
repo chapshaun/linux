@@ -1,3 +1,0 @@
-evince
-libreoffice
-wps

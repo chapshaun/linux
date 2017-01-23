@@ -7,19 +7,20 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: youtube-dl notes
+# DESC:various cli shit
+View filesystem space:
+df -h
 
-Install: Look here for latest updates: https://github.com/rg3/youtube-dl
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+CD/DVD Rom:
+Open: eject
+Clost: eject -t
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
+Show your distro:
+cat /etc/issue
 
-Update:
-sudo youtube-dl -U
+Christmas Tree:
+Install:
+perl -MCPAN -e 'install Acme::POE::Tree'
 
-youtube-dl -F <link>
-
-then
-
-youtube-dl -f <code> <link>
+Run:
+perl -MAcme::POE::Tree -e 'Acme::POE::Tree->new()->run()'

@@ -7,19 +7,19 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: youtube-dl notes
+# DESC: nodejs notes from a class one time
 
-Install: Look here for latest updates: https://github.com/rg3/youtube-dl
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+ /usr/local/bin/nodemon and change "node" for "nodejs"
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
-
-Update:
-sudo youtube-dl -U
-
-youtube-dl -F <link>
-
-then
-
-youtube-dl -f <code> <link>
+npm install
+npm install express
+npm install express-handlebars
+npm install request
+npm install body-parser
+npm install express-session
+npm install mongodb
+<<<<<<< HEAD
+npm init
+=======
+npm init
+>>>>>>> b03b3ff837b4222630ee7f0e10bfeb5666649014

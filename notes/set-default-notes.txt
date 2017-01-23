@@ -7,19 +7,14 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: youtube-dl notes
+# DESC: set default
+Set Default:
 
-Install: Look here for latest updates: https://github.com/rg3/youtube-dl
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+See what's currently set:
+gvfs-mime --query inode/directory
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
+Set it to Thunar:
+gvfs-mime --set inode/directory Thunar.desktop
 
-Update:
-sudo youtube-dl -U
-
-youtube-dl -F <link>
-
-then
-
-youtube-dl -f <code> <link>
+Test:
+gvfs-open $HOME

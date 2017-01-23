@@ -7,19 +7,18 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: youtube-dl notes
+# DESC: complete package removal
+# check home, ~/.config and ~/.local folders too
 
-Install: Look here for latest updates: https://github.com/rg3/youtube-dl
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+sudo apt-get remove 
+sudo apt-get remove --auto-remove
+sudo apt-get purge 
+sudo apt-get purge --auto-remove
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
 
-Update:
-sudo youtube-dl -U
 
-youtube-dl -F <link>
 
-then
+sudo add-apt-repository --remove ppa:whatever/ppa
+(sudo apt-get install ppa-purge)
+sudo ppa-purge ppa:whatever/ppa 
 
-youtube-dl -f <code> <link>

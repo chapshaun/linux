@@ -7,19 +7,19 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: youtube-dl notes
+# DESC:writing img or iso to device
+Write iso to USB drive
 
-Install: Look here for latest updates: https://github.com/rg3/youtube-dl
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+sudo fdisk -l
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
+umount /dev/sdb
+------------------------------------------------
+lsblk
 
-Update:
-sudo youtube-dl -U
+sudo mkfs.vfat -n 'SanDisk' -I /dev/sdb
 
-youtube-dl -F <link>
+//bs=4M is optional, makes it run faster
+------------------------------------------------
+sudo dd bs=4M if=[insert iso] of=/dev/sdb
 
-then
-
-youtube-dl -f <code> <link>
+...wait until cmd is finished

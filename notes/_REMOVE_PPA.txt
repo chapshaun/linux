@@ -1,3 +1,0 @@
-sudo add-apt-repository --remove ppa:whatever/ppa
-(sudo apt-get install ppa-purge)
-sudo ppa-purge ppa:whatever/ppa 

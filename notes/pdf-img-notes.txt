@@ -7,19 +7,18 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: youtube-dl notes
+# DESC: pdf to images, needs imagemagick
+Run:
+convert -density 150 input.pdf -quality 100 output.png
 
-Install: Look here for latest updates: https://github.com/rg3/youtube-dl
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+Notes:
+PNG, JPG or (virtually) any other image format can be chosen
+-density xxx will set the dpi to xxx (common are 150 and 300)
+-quality xxx will set the compression to xxx for PNG, JPG and MIFF file formates (100 means no compression)
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
 
-Update:
-sudo youtube-dl -U
+pdfshuffler
 
-youtube-dl -F <link>
+pdftk
 
-then
-
-youtube-dl -f <code> <link>
+	pdftk 01.pdf 02.pdf cat output output.pdf

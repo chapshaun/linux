@@ -7,19 +7,13 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: youtube-dl notes
+# DESC:pulse audio notes
 
-Install: Look here for latest updates: https://github.com/rg3/youtube-dl
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+pavucontrol
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
+Stream Output from Input:
+sudo apt-get update
+sudo apt-get install gstreamer-tools
 
-Update:
-sudo youtube-dl -U
-
-youtube-dl -F <link>
-
-then
-
-youtube-dl -f <code> <link>
+	Use:
+	gst-launch pulsesrc ! pulsesink

@@ -1,8 +1,0 @@
-pavucontrol
-
-Stream Output from Input:
-sudo apt-get update
-sudo apt-get install gstreamer-tools
-
-	Use:
-	gst-launch pulsesrc ! pulsesink

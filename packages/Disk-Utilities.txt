@@ -1,4 +1,0 @@
-gnome-disk-utility
-gparted
-gnome-system-monitor
-aptitude
