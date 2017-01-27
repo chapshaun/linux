@@ -10,10 +10,10 @@
 - <https://twitter.com/harimakito>
 
 ##cli programs
-    tmux ranger htop cmus trackma youtube-dl ffmpeg terminix vim mpv clamav unoconv imagemagick
+    tmux ranger htop cmus trackma youtube-dl ffmpeg terminix vim mpv clamav unoconv imagemagick neofetch
 
 ##gui programs
-    chromium google-chrome-stable audacity audacious clementine gimp kid3 gparted gnome-disk-utility evince libreoffice viewnoir sublime hardinfo bleachbit eclipse codeblocks psxr pavucontrol pulseaudio spotify pdfshuffler(or 'pdf chain')
+    chromium google-chrome-stable audacity audacious clementine gimp kid3 gparted gnome-disk-utility evince libreoffice viewnoir sublime hardinfo bleachbit eclipse codeblocks psxr pavucontrol pulseaudio spotify pdfshuffler(or 'pdf chain') franz
     
 ##debian exclusive
     gdebi synaptic aptitude
