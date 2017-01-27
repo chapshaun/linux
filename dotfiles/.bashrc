@@ -152,4 +152,3 @@ alias wififix="~/shell-scripts/wififix.sh"
 alias play="xdotool key --clearmodifiers XF86AudioPlay"
 alias next="xdotool key --clearmodifiers XF86AudioNext"
 alias prev="xdotool key --clearmodifiers XF86AudioPrev"
-
