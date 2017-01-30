@@ -24,7 +24,7 @@ draw_graph_borders yes
 default_color white
 default_shade_color black
 default_outline_color white
-alignment top_right
+alignment top_left
 gap_x 1190
 gap_y 30
 no_buffers yes
@@ -41,7 +41,7 @@ CPU0: ${cpu cpu0}% ${cpubar cpu0}
 CPU1: ${cpu cpu1}% ${cpubar cpu1}
 CPU2: ${cpu cpu2}% ${cpubar cpu2}
 CPU3: ${cpu cpu3}% ${cpubar cpu3}
-Temperatura ${execi 8 sensors | grep 'Core 0' | cut -c18-24 | sed '/^$/d'}
+Temperature ${execi 8 sensors | grep 'Core 0' | cut -c18-24 | sed '/^$/d'}
  
 ${font sans-serif:bold:size=8}${color eee}MEMORY ${hr 2}
 ${font sans-serif:normal:size=8}RAM $alignc $mem / $memmax $alignr $memperc%
@@ -50,5 +50,5 @@ $membar
 ${font sans-serif:bold:size=8}${color eee}DISKs ${hr 2}
 ${font sans-serif:normal:size=8}Root $alignc ${fs_used /} / ${fs_size /} $alignr${fs_used_perc /}%
 ${fs_bar /}
-Home $alignc ${fs_used /home/YOUR-USERNAME-HERE} / ${fs_size /home/YOUR-USERNAME-HERE} $alignr ${fs_used_perc /home/YOUR-USERNAME-HERE}%
-${fs_bar /home/YOUR-USERNAME-HERE}
+Home $alignc ${fs_used /home/shaunchap} / ${fs_size /home/shaunchap} $alignr ${fs_used_perc /home/shaunchap}%
+${fs_bar /home/shaunchap}
