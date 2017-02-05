@@ -148,6 +148,7 @@ alias amvshuffle="mpv ~/Videos/AMVs/ --shuffle"
 alias man-pi="sudo gedit ~/shell-scripts/pi.txt"
 alias tmux-sessions="~/shell-scripts/tmux-session.sh"
 alias wififix="~/shell-scripts/wififix.sh"
+alias speedtest="~/Programs/speedtest"
 
 alias play="xdotool key --clearmodifiers XF86AudioPlay"
 alias next="xdotool key --clearmodifiers XF86AudioNext"
