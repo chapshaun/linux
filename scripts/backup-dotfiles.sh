@@ -32,6 +32,7 @@ cp ~/.config/ranger/rifle.conf ~/GitHub/linux/dotfiles/
 cp ~/.config/tear_test.mp4 ~/GitHub/linux/dotfiles/
 cp ~/.config/kid3rc ~/GitHub/linux/dotfiles/
 cp ~/.config/compton.conf ~/GitHub/linux/dotfiles/
+cp ~/.idlerc/config-highlight.cfg ~/GitHub/linux/dotfiles/
 
 # PROGRAMS
 cp ~/Programs/speedtest ~/GitHub/linux/dotfiles/
