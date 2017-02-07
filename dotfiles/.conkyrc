@@ -49,11 +49,13 @@ default_bar_size 60 8
 draw_shades yes
 stippled_borders 1
 
-default_color 1793d0
+#Blue: 1793d0
+#Red: 8b0514
+default_color 8b0514
 color0 white
-color1 1793d0 
+color1 8b0514 
 color2 white
-color3 1793d0
+color3 8b0514
 
 TEXT
 ${font Liberation Sans:style=Bold:size=14}SYSTEM $hr${font}
