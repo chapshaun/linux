@@ -1,3 +1,6 @@
+# Change /home/shaunchap to /home/$USER$
+# Included two colors, red and blue
+
 ######################
 # - Conky settings - #
 ######################
@@ -18,7 +21,7 @@ format_human_readable
 # - Text settings - #
 #####################
 use_xft yes
-xftfont Liberation Sans:size=8
+xftfont Liberation Sans:size=10
 override_utf8_locale yes
 text_buffer_size 4096
 #text_buffer_size 2048
@@ -38,7 +41,7 @@ alignment top_right
 gap_x 12
 #gap_x 25
 gap_y 40
-minimum_size 182 600
+minimum_size 182 700
 maximum_width 182
 
 default_bar_size 60 8
@@ -63,18 +66,18 @@ ${font Liberation Sans:style=Bold:size=14}SYSTEM $hr${font}
 # - SYSTEM - #
 ##############
 ${font Liberation Sans:style=Bold:size=8}${color}CPU ${hr 2}${font Liberation Sans:style=Normal:size=8}
-CPU0: ${cpu cpu0}% ${cpubar cpu0}
+${color2}CPU0: ${cpu cpu0}% ${cpubar cpu0}
 CPU1: ${cpu cpu1}% ${cpubar cpu1}
 CPU2: ${cpu cpu2}% ${cpubar cpu2}
 CPU3: ${cpu cpu3}% ${cpubar cpu3}
 Temperature ${execi 8 sensors | grep 'Core 0' | cut -c18-24 | sed '/^$/d'}
  
 ${font Liberation Sans:style=Bold:size=8}${color}MEMORY ${hr 2}
-${font Liberation Sans:style=Normal:size=8}RAM $alignc $mem / $memmax $alignr $memperc%
+${font Liberation Sans:style=Normal:size=8}${color2}RAM $alignc $mem / $memmax $alignr $memperc%
 $membar
 
 ${font Liberation Sans:style=Bold:size=8}${color}DISKs ${hr 2}
-${font Liberation Sans:style=Normal:size=8}Root $alignc ${fs_used /} / ${fs_size /} $alignr${fs_used_perc /}%
+${font Liberation Sans:style=Normal:size=8}${color2}Root $alignc ${fs_used /} / ${fs_size /} $alignr${fs_used_perc /}%
 ${fs_bar /}
 Home $alignc ${fs_used /home/shaunchap} / ${fs_size /home/shaunchap} $alignr ${fs_used_perc /home/shaunchap}%
 ${fs_bar /home/shaunchap}
@@ -90,7 +93,7 @@ ${fs_bar /home/shaunchap}
 #############
 # - CLOCK - #
 #############
-${voffset 10}${font Liberation Sans:style=Bold:size=14}DATE $hr${font}
+${voffset 10}${font Liberation Sans:style=Bold:size=14}${color}DATE $hr${font}
 ${voffset 10}${alignc}${color2}${font Liberation Sans:style=Bold:size=30}${time %I:%M}${font} ${time %p}${color}
 ${alignc 12}${time %d %B %Y}
 #################
