@@ -23,12 +23,14 @@
     
 ##theming
 - [numix](https://github.com/numixproject)
+- [adapta](https://github.com/adapta-project/adapta-gtk-theme)
 - [la capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme)
 - [sardi](https://github.com/erikdubois/Sardi)
 - [flat-remix](https://github.com/daniruiz/Flat-Remix)
 - [moka](https://github.com/snwh/moka-icon-theme/tree/master/Moka)
 - [oranchelo](https://github.com/OrancheloTeam/oranchelo-icon-theme)
 - [paper](https://github.com/snwh/paper-icon-theme)
+
     
 ###node packages
     node nodejs nodejs-legacy npm mongodb nodemon
