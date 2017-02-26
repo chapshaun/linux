@@ -1,0 +1,46 @@
+#        __                     __                    
+#  _____/ /_  ____ _____  _____/ /_  ____ ___  ______ 
+# / ___/ __ \/ __ `/ __ \/ ___/ __ \/ __ `/ / / / __ \
+#/ /__/ / / / /_/ / /_/ (__  ) / / / /_/ / /_/ / / / /
+#\___/_/ /_/\__,_/ .___/____/_/ /_/\__,_/\__,_/_/ /_/ 
+#               /_/                                   
+#   https://github.com/chapshaun
+#   https://twitter.com/harimakito
+
+# DESC: brightness fix for some asus laptops, for ubuntu
+
+Update Grub;
+
+Open terminal with Ctrl+Alt+T
+type in terminal;
+gksudo gedit /etc/default/grub
+Change;
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+to
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash pcie_aspm=force acpi_osi="
+Save and Exit gedit
+type in terminal;
+sudo update-grub
+Restart your computer; (Don't forget to bookmark this page)
+sudo shutdown -r now
+This should fix your issue, if not keep reading.
+Create 20-intel.conf; Intel GFX card only!
+
+Open terminal with Ctrl+Alt+T
+type in terminal;
+cd /usr/share/X11/xorg.conf.d
+now;
+sudo touch 20-intel.conf
+then type;
+gksudo gedit 20-intel.conf
+Copy & Paste the following lines into the document;
+Section "Device"
+    Identifier "card0"
+    Driver "intel"
+    Option "Backlight" "intel_backlight"
+    BusID "PCI:0:2:0"
+EndSection
+Save and Exit the document.
+Restart your computer;
+sudo shutdown -r now
+This should work, if not keep reading.
