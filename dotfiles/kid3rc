@@ -18,7 +18,7 @@ FormatFromFilenameText=%{artist} - %{album}/%{track} %{title}
 FormatItem=0
 FormatItems=%{track} %{title},%{track}. %{title},%{track} - %{artist} - %{title},%{track}. %{artist} - %{title},%{artist} - %{track} - %{title},%{artist} - %{album} - %{track} - %{title},%{artist} - [%{year}] %{album} - %{track} - %{title},%{artist} - %{title},%{artist}-%{title},(%{artist}) %{title},%{artist}-%{title}-%{album}
 FormatText=%{track} %{title}
-LastOpenedFile=/home/shaunchap/Music/Genres/Comedy/Kyom Jong Tov Club.mp3
+LastOpenedFile=/home/shaunchap/Downloads/The Very Very Very Strongest (Styzmask Remix).mp3
 LoadLastOpenedFile=true
 MarkChanges=true
 NameFilter=All Supported Files (*.aac *.aif *.aiff *.ape *.asf *.dsf *.flac *.it *.m4a *.m4b *.m4p *.mod *.mp2 *.mp3 *.mp4 *.mpc *.oga *.ogg *.opus *.s3m *.spx *.tta *.wav *.wma *.wv);;AAC (*.aac);;AIF (*.aif);;AIFF (*.aiff);;APE (*.ape);;ASF (*.asf);;DSF (*.dsf);;FLAC (*.flac);;IT (*.it);;M4A (*.m4a);;M4B (*.m4b);;M4P (*.m4p);;MOD (*.mod);;MP2 (*.mp2);;MP3 (*.mp3);;MP4 (*.mp4);;MPC (*.mpc);;OGA (*.oga);;OGG (*.ogg);;OPUS (*.opus);;S3M (*.s3m);;SPX (*.spx);;TTA (*.tta);;WAV (*.wav);;WMA (*.wma);;WV (*.wv);;All Files (*)
@@ -37,10 +37,10 @@ HidePicture=false
 HideV1=false
 HideV2=false
 PlayOnDoubleClick=false
-SplitterSize0=460
-SplitterSize1=900
-VSplitterSize0=507
-VSplitterSize1=123
+SplitterSize0=431
+SplitterSize1=843
+VSplitterSize0=531
+VSplitterSize1=129
 
 [Import]
 BrowseCoverArtWindowGeometry=
@@ -72,11 +72,12 @@ FontSize=-1
 Geometry=
 HideStatusBar=false
 HideToolBar=false
-State=AAAA/wAAAAD9AAAAAAAABVYAAAJ8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABQAAAAKaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 Style=
 ToolBarsMovable=Disabled
 UseFont=false
 Window-Maximized 768x1366=true
+Window-Maximized 800x1280=true
 WindowState=
 
 [MenuCommands]
@@ -110,19 +111,19 @@ Command9=Lyrics,@beginmenu,0
 
 [Recent Files]
 File1[$e]=$HOME
-File2[$e]=$HOME/Downloads
-File3[$e]=$HOME/Music/Genres/Comedy
-File4[$e]=$HOME/Music/Genres/EDM
-File5[$e]=$HOME/Music
-File6[$e]=$HOME/Music/Genres/Super Eurobeat
-File7[$e]=$HOME/Music/Genres
+File2[$e]=$HOME/Music/Genres/EDM
+File3[$e]=$HOME/Music
+File4[$e]=$HOME/Music/Genres/Super Eurobeat
+File5[$e]=$HOME/Music/Genres
+File6[$e]=$HOME/Music/Genres/Comedy
+File7[$e]=$HOME/Downloads
 Name1[$e]=shaunchap
-Name2[$e]=Downloads
-Name3[$e]=Comedy
-Name4[$e]=EDM
-Name5[$e]=Music
-Name6[$e]=Super Eurobeat
-Name7[$e]=Genres
+Name2[$e]=EDM
+Name3[$e]=Music
+Name4[$e]=Super Eurobeat
+Name5[$e]=Genres
+Name6[$e]=Comedy
+Name7[$e]=Downloads
 
 [TagFormat]
 CaseConversion=4
