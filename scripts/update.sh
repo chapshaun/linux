@@ -10,10 +10,19 @@
 
 # DESC: quick update script
 
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
-sudo apt-get autoremove
+# Debian
+# sudo apt-get update
+# sudo apt-get upgrade
+# sudo apt-get dist-upgrade
+# sudo apt-get autoremove
+# sudo youtube-dl -U
+# neofetch
 
-#youtube-dl update
+# Arch
+sudo pacman -Syyu
+yaourt -Syu
 sudo youtube-dl -U
+archey3
+
+# youtube-dl update
+# sudo youtube-dl -U
