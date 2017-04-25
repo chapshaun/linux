@@ -1,4 +1,4 @@
-#linux repo
+# linux repo
 
             __                     __                    
       _____/ /_  ____ _____  _____/ /_  ____ ___  ______ 
@@ -9,19 +9,19 @@
 - <https://github.com/chapshaun>
 - <https://twitter.com/harimakito>
 
-##cli programs
+## cli programs
     tmux ranger htop cmus trackma youtube-dl ffmpeg terminix vim mpv clamav unoconv imagemagick neofetch
 
-##gui programs
+## gui programs
     etcher chromium google-chrome-stable ffmulticonverter audacity audacious clementine gimp kid3 gparted gnome-disk-utility evince libreoffice viewnoir sublime hardinfo bleachbit eclipse codeblocks psxr pavucontrol pulseaudio spotify pdfshuffler(or 'pdf chain') franz
     
-##debian exclusive
+## debian exclusive
     gdebi synaptic aptitude
     
-##arch exclusive
+## arch exclusive
     pacman yaourt 
     
-##theming
+## theming
 - [numix](https://github.com/numixproject)
 - [adapta](https://github.com/adapta-project/adapta-gtk-theme)
 - [la capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme)
@@ -32,10 +32,10 @@
 - [paper](https://github.com/snwh/paper-icon-theme)
 
     
-###node packages
+### node packages
     node nodejs nodejs-legacy npm mongodb nodemon
     
-###other programs
+### other programs
     ardour 
 
 ![binary-bear](http://i.imgur.com/NKRfYdz.png)
