@@ -10,16 +10,16 @@
 - <https://twitter.com/harimakito>
 
 ## cli programs
-    tmux ranger htop cmus trackma youtube-dl ffmpeg terminix vim mpv clamav unoconv imagemagick neofetch
+    tmux ranger htop cmus youtube-dl ffmpeg terminix vim mpv clamav unoconv imagemagick screenfetch(neofetch)
 
 ## gui programs
-    etcher chromium google-chrome-stable ffmulticonverter audacity audacious clementine gimp kid3 gparted gnome-disk-utility evince libreoffice viewnoir sublime hardinfo bleachbit eclipse codeblocks psxr pavucontrol pulseaudio spotify pdfshuffler(or 'pdf chain') franz
+    xournal etcher chromium audacity audacious clementine gimp kid3 gparted gnome-disk-utility evince libreoffice viewnoir sublime hardinfo bleachbit eclipse codeblocks psxr pavucontrol pulseaudio spotify pdfshuffler(pdfchain)
     
 ## debian exclusive
     gdebi synaptic aptitude
     
 ## arch exclusive
-    pacman yaourt 
+    pacman yaourt ffmulticonverter
     
 ## theming
 - [numix](https://github.com/numixproject)
