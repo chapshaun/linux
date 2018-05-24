@@ -1,18 +1,22 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-archey3
-alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
+screenfetch
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/shaunchap/.oh-my-zsh
 
+alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
+
+alias rld-xresources='xrdb -load ~/.Xresources'
+alias cfg-xresources='vim ~/.Xresources'
+alias new-subl='rm ~/.config/sublime-text-3/Local/Session.sublime_session'
+
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-
-#ZSH_THEME="robbyrussell"
-ZSH_THEME="agnoster"
+ZSH_THEME="junkfood"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
