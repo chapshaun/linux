@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/zsh
 #        __                     __                    
 #  _____/ /_  ____ _____  _____/ /_  ____ ___  ______ 
 # / ___/ __ \/ __ `/ __ \/ ___/ __ \/ __ `/ / / / __ \
@@ -11,18 +11,18 @@
 # DESC: quick update script
 
 # Debian
-# sudo apt-get update
-# sudo apt-get upgrade
-# sudo apt-get dist-upgrade
-# sudo apt-get autoremove
-# sudo youtube-dl -U
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+sudo youtube-dl -U
 # neofetch
 
 # Arch
-sudo pacman -Syyu
-yaourt -Syu
-sudo youtube-dl -U
-archey3
+# sudo pacman -Syyu
+# yaourt -Syu
+# sudo youtube-dl -U
+# archey3
 
 # youtube-dl update
 # sudo youtube-dl -U
