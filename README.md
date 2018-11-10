@@ -23,6 +23,7 @@
     
 ## theming
 - [numix](https://github.com/numixproject)
+- [papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - [adapta](https://github.com/adapta-project/adapta-gtk-theme)
 - [la capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme)
 - [sardi](https://github.com/erikdubois/Sardi)
