@@ -10,10 +10,10 @@
 - <https://twitter.com/harimakito>
 
 ## cli programs
-    tmux ranger htop cmus youtube-dl ffmpeg terminix vim mpv clamav unoconv imagemagick screenfetch(neofetch)
+    ranger vim git mpv youtube-dl speedtest-cli htop cmus ffmpeg clamav unoconv neofetch streamlink
 
 ## gui programs
-    xournal etcher chromium audacity audacious clementine gimp kid3 gparted gnome-disk-utility evince libreoffice viewnoir sublime hardinfo bleachbit eclipse codeblocks psxr pavucontrol pulseaudio spotify pdfshuffler(pdfchain)
+    xournal etcher audacity audacious clementine gimp gparted gnome-disk-utility evince libreoffice viewnoir vscode hardinfo bleachbit pavucontrol pulseaudio
     
 ## debian exclusive
     gdebi synaptic aptitude
