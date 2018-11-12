@@ -8,9 +8,10 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: quick update script
+## DESC: quick update script
+## REQUIREMENTS: 
 
-# Debian
+## Debian ------------------
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get dist-upgrade
@@ -18,11 +19,8 @@ sudo apt-get autoremove
 sudo youtube-dl -U
 # neofetch
 
-# Arch
+## Arch --------------------
 # sudo pacman -Syyu
 # yaourt -Syu
 # sudo youtube-dl -U
 # archey3
-
-# youtube-dl update
-# sudo youtube-dl -U
