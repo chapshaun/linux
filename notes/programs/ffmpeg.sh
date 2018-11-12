@@ -1,3 +1,4 @@
+#!/usr/bin/zsh
 #        __                     __                    
 #  _____/ /_  ____ _____  _____/ /_  ____ ___  ______ 
 # / ___/ __ \/ __ `/ __ \/ ___/ __ \/ __ `/ / / / __ \
@@ -7,13 +8,21 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC:pulse audio notes
+## DESC: ffmpeg notes
 
-pavucontrol
+## Audio
+## ----------------------------------------
+## from video
+ffmpeg -i 'input.mp4' -vn -y 'output.mp3'
 
-Stream Output from Input:
-sudo apt-get update
-sudo apt-get install gstreamer-tools
+## from audio [-ab 128k -ar 44100]
+ffmpeg -i 'input.webm' -y 'output.mp3'
 
-	Use:
-	gst-launch pulsesrc ! pulsesink
+## Video
+## ----------------------------------------
+## combine video and audio
+ffmpeg -i 'video.mp4' -i 'audio.mp3' -codec copy -shortest 'output.mp4'
+
+## WMV
+
+## MKV

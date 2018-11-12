@@ -1,3 +1,4 @@
+#!/usr/bin/zsh
 #        __                     __                    
 #  _____/ /_  ____ _____  _____/ /_  ____ ___  ______ 
 # / ___/ __ \/ __ `/ __ \/ ___/ __ \/ __ `/ / / / __ \
@@ -7,11 +8,13 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: update mirror list in arch
+## DESC:pulse audio notes
 
-sudo pacman -S reflector
+pavucontrol
 
-reflector -l 50 -f 20 --save /tmp/mirrorlist.new && rankmirrors -n 0 /tmp/mirrorlist.new \> /tmp/mirrorlist && sudo cp /tmp/mirrorlist /etc/pacman.d
+## Stream Output from Input:
+sudo apt-get update
+sudo apt-get install gstreamer-tools
 
-
-sudo rankmirrors -n 0 /etc/pacman.d/antergos-mirrorlist \> /tmp/antergos-mirrorlist && sudo cp /tmp/antergos-mirrorlist /etc/pacman.d
+## Use:
+gst-launch pulsesrc ! pulsesink

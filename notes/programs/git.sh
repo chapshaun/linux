@@ -1,3 +1,4 @@
+#!/usr/bin/zsh
 #        __                     __                    
 #  _____/ /_  ____ _____  _____/ /_  ____ ___  ______ 
 # / ___/ __ \/ __ `/ __ \/ ___/ __ \/ __ `/ / / / __ \
@@ -7,11 +8,11 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: git notes
+## DESC: git notes
 
 
-Steps to setup GitHub repo:
------------------------------------------------------
+## Steps to setup GitHub repo:
+## -----------------------------------------------------
 git init
 
 git add .
@@ -28,8 +29,8 @@ git branch --set-upstream master origin/master
 
 git push origin master
 
------------------------------------------------------
-Install:
+## -----------------------------------------------------
+## Install:
 
 sudo apt-get install git
 
@@ -40,7 +41,7 @@ git config --global user.name "username"
 
 git config --global push.default simple
 
------------------------------------------------------
+## -----------------------------------------------------
 
 Cache Username and Password:
 
@@ -48,4 +49,4 @@ git config --global credential.helper cache (15mins)
 
 git config --global credential.helper 'cache --timeout=3600'
 
------------------------------------------------------
+## -----------------------------------------------------

@@ -1,3 +1,4 @@
+#!/usr/bin/zsh
 #        __                     __                    
 #  _____/ /_  ____ _____  _____/ /_  ____ ___  ______ 
 # / ___/ __ \/ __ `/ __ \/ ___/ __ \/ __ `/ / / / __ \
@@ -7,9 +8,9 @@
 #		https://github.com/chapshaun
 #		https://twitter.com/harimakito
 
-# DESC: mpv notes
+## DESC: mpv notes
 
-CaSe SeNSitiVE MPV controls
+## CaSe SeNSitiVE MPV controls
 
 j = toggle subtitles
 # = toggle audio Stream
