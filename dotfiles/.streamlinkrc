@@ -12,7 +12,8 @@
 # REQUIREMENTS: mpv
 
 # Player options
-player=mpv --cache 2048 --ontop --no-border --force-window --autofit=500x280 --geometry=-15-60
+# player=mpv --cache 2048 --ontop --no-border --force-window --autofit=500x280 --geometry=-15-60
 # player=mpv --cache 2048
+player=mpv --no-border --autofit=1280x720
 player-no-close
 default-stream=720p,1080p,480p,medium,best
