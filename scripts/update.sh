@@ -24,3 +24,14 @@ sudo youtube-dl -U
 # yaourt -Syu
 # sudo youtube-dl -U
 # archey3
+
+## Clear
+echo "Clear? [Y/n]: ";
+read ANSWER;
+if [ "$ANSWER" = "n" ] || [ "$ANSWER" = "N" ]
+then
+        :
+else
+        clear
+fi
+
