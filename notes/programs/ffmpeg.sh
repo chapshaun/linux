@@ -26,3 +26,7 @@ ffmpeg -i 'video.mp4' -i 'audio.mp3' -codec copy -shortest 'output.mp4'
 ## WMV
 
 ## MKV
+
+
+#3 combine parts of videos
+ffmpeg -i "concat:input1.mp4|input2.mp4|input3.mp4" -c copy output.mp4
