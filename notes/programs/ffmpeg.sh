@@ -36,3 +36,6 @@ ffmpeg -i "concat:intermediate1.ts|intermediate2.ts" -c copy -bsf:a aac_adtstoas
 
 #certain cut certain times in videos
 ffmpeg -ss 00:01:00 -i input.mp4 -to 00:02:00 -c copy output.mp4
+
+#extract video track only
+ffmpeg -i in.mov -c copy -map 0:v:0 out.mov
