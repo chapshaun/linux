@@ -101,6 +101,10 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 alias update='~/update.sh'
-alias yt='~/yt.sh' 
-alias open='io.elementary.files'
+alias yt='~/yt.sh'
+alias chill='~/chill.sh'
+alias open='io.elementary.files &> /dev/null'
+alias audacity='audacity &> /dev/null'
 xrdb ~/.Xresources
+
+PATH=$PATH:~/cmake/bin
