@@ -15,11 +15,15 @@ echo "Pixiv/Deviant art? [y/N]";
 read ANS;
 if [  "$ANS" = "Y" ] || [  "$ANS" = "y" ]
 then
-    echo "Enter Username, then Password: " ;
-    read USER;
-    read PASS;
+    echo "Username:";
+    read username;
+    echo "Password:";
+    stty -echo
+    read password;
+    stty echo
+
     notify-send -i " " 'Download Starting ...' -t 5000
-    gallery-dl -u $USER -p $PASS $1;
+    gallery-dl -u $username -p $password $1;
     notify-send -i " " 'Download Finished ...' -t 5000
 else
     notify-send -i " " 'Download Starting ...' -t 5000
